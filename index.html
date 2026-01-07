@@ -10,7 +10,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
+  <!-- loga -->
   <link href="assets/img/testimonials/Picsart_25-05-29_14-49-16-113.png" rel="icon">
   <link href="assets/img/testimonials/Picsart_25-05-29_14-49-16-113.png" rel="apple-touch-icon">
 
@@ -18,34 +18,36 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!--  CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Devicon -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Theme Toggle Button -->
+  <div id="theme-toggle" class="theme-toggle">
+    <i class="bi bi-moon-fill" id="theme-icon"></i>
+  </div>
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/lokeshM1.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/sidebar-profile.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -54,12 +56,14 @@
       <h1 class="sitename">LOGANATHAN</h1>
     </a>
 
-     <div class="social-links text-center">
+    <div class="social-links text-center">
       <a href="https://x.com/kutty_loga_" class="twitter"><i class="bi bi-twitter-x"></i></a>
       <a href="https://www.facebook.com/share/1PByH9xoeN/" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/kutty_loga_?igsh=YTQ4NTIxenk4c3Vt" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.instagram.com/kutty_loga_?igsh=YTQ4NTIxenk4c3Vt" class="instagram"><i
+          class="bi bi-instagram"></i></a>
       <a href="https://youtube.com/@kutty_loga_22?si=Ks48SBF2cXVLW0o-" class="youtube"><i class="bi bi-youtube"></i></a>
-      <a href="https://www.linkedin.com/in/loganathan-m-117a14365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/loganathan-m-117a14365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
@@ -68,10 +72,11 @@
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#skills"><i class="bi bi-images navicon"></i> skills</a></li>
         <li><a href="#projects"><i class="bi bi-hdd-stack navicon"></i> PROJECTS</a></li>
-        <li><a href="#contact"><i class="bi-person-lines-fill"></i>   CONTACT</a></li>
+        <li><a href="#contact"><i class="bi-person-lines-fill"></i> CONTACT</a></li>
     </nav>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; margin-top: 20px;">
-      <a href="assets/img/MY RESUMU.pdf"target="_blank" class="resume-btn">📄 MY RESUME</a>
+    <div
+      style="display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; margin-top: 20px;">
+      <a href="assets/img/MY RESUMU.pdf" target="_blank" class="resume-btn">📄 MY RESUME</a>
       <div id="resume-lottie" style="width: 120px; height: 80px;"></div>
     </div>
 
@@ -83,11 +88,35 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/LOGANATHA PROFILE.jpg" alt="" data-aos="fade-in" class="">
+
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>LOGANATHAN</h2>
-        <p><span class="typed" data-typed-items="web Developer, java , css , editor">kutty</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <div class="row align-items-center">
+          <!-- Left Column: Text -->
+          <div class="col-lg-7">
+            <span class="hero-subtitle">Hello,</span>
+            <h2>I'm Loganathan</h2>
+            <p class="hero-bio">An enthusiastic and dedicated student with a strong passion for Artificial Intelligence,
+              Data Science, and building modern web applications.</p>
+            <div class="hero-buttons">
+              <a href="assets/img/MY RESUMU.pdf" target="_blank" class="btn-get-started">View Resume</a>
+              <a href="#contact" class="btn-watch-video">Hire Me</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Profile Image with Orbits -->
+          <div class="col-lg-5 d-flex justify-content-center">
+            <div class="hero-img-container">
+              <div class="orbit-circle">
+                <div class="orbit-icon"><i class="bi bi-filetype-java"></i></div>
+                <div class="orbit-icon"><i class="bi bi-filetype-py"></i></div>
+                <div class="orbit-icon"><i class="bi bi-filetype-html"></i></div>
+                <div class="orbit-icon"><i class="bi bi-filetype-css"></i></div>
+              </div>
+              <img src="assets/img/hero-profile.jpg" class="main-profile-img" alt="Profile">
+            </div>
+          </div>
+        </div>
       </div>
 
     </section><!-- /Hero Section -->
@@ -98,22 +127,31 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>Hi, I'm Loganathan 👋 from Vellore, currently pursuing my BCA 🎓 at DSU College, Bangalore. I'm a passionate and well-rounded web 🌐 and mobile app 📱 developer with strong coding skills 💻 and a creative mindset 🎨. I specialize in building modern, user-friendly digital solutions that blend functionality and style. I'm also skilled in photo 📸 and video editing 🎞, adding visual impact to my work. My creative content has attracted over 10K followers 👥 on Instagram. I enjoy transforming ideas 💡 into smooth, interactive experiences 🚀 and am inspired by technology, design, and innovation ⚙. I believe in continuous learning 📚, pushing limits, and growing every day. With passion and purpose, I’m ready to shape the digital future 🔥.</p>
+        <p>Hi, I'm Loganathan 👋 from Vellore, currently pursuing my BCA 🎓 at DSU College, Bangalore. I'm a passionate
+          and well-rounded web 🌐 and mobile app 📱 developer with strong coding skills 💻 and a creative mindset 🎨. I
+          specialize in building modern, user-friendly digital solutions that blend functionality and style. I'm also
+          skilled in photo 📸 and video editing 🎞, adding visual impact to my work. My creative content has attracted
+          over 10K followers 👥 on Instagram. I enjoy transforming ideas 💡 into smooth, interactive experiences 🚀 and
+          am inspired by technology, design, and innovation ⚙. I believe in continuous learning 📚, pushing limits, and
+          growing every day. With passion and purpose, I’m ready to shape the digital future 🔥.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/LOGANATHAN.jpeg" alt="My photo" class="about-img">
+            <img src="assets/img/about-profile.jpg" alt="My photo" class="about-img">
 
           </div>
           <div class="col-lg-8 content">
             <h2>mobile &amp; Web Developer.</h2>
             <p class="fst-italic py-3">
-              Passionate And Detall-Orlented BCA Student Mobile And Web Developer With Hands-On Experience In Web Development, Learning, And Computer Vision.
-                 Skilled In HTML, CSS, JavaScript, Python. Proven Ablilty To Bulld Responsive Websites And Al-Based Systems. Seeking To Leverage My Technical Skills And
-                 Creative Mindset To Contribute To Innovative Mobile And Web Developer Projects And Become A Full-Stack Developer
+              Passionate And Detall-Orlented BCA Student Mobile And Web Developer With Hands-On Experience In Web
+              Development, Learning, And Computer Vision.
+              Skilled In HTML, CSS, JavaScript, Python. Proven Ablilty To Bulld Responsive Websites And Al-Based
+              Systems. Seeking To Leverage My Technical Skills And
+              Creative Mindset To Contribute To Innovative Mobile And Web Developer Projects And Become A Full-Stack
+              Developer
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -128,18 +166,105 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>17</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BCA</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>loganathan082008@gmail.com</span></li>
-              
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>loganathan082008@gmail.com</span>
+                  </li>
+
                 </ul>
               </div>
             </div>
-            
+
           </div>
         </div>
 
       </div>
 
     </section><!-- /About Section -->
+
+    <!-- Education & Expertise Section -->
+    <section id="education" class="education section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Education & Expertise</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+
+          <!-- Left Column: Academic Journey -->
+          <div class="col-lg-6">
+            <h3 class="resume-title mb-4">Academic Journey <i class="bi bi-mortarboard-fill text-accent"></i></h3>
+            <div class="timeline-container">
+
+              <div class="timeline-item">
+                <h4>BCA - Bachelor of Computer Application</h4>
+                <h5>2025 - 2028</h5>
+                <p><em>Dayananda Sagar University , Bangalore</em></p>
+                <ul>
+                  <li><i class="bi bi-check2"></i> Specializing in Web Development & AI</li>
+                  <li><i class="bi bi-check2"></i> Core focus on Python & Data Structures</li>
+                </ul>
+              </div>
+
+              <div class="timeline-item">
+                <h4>Higher Secondary Education</h4>
+                <h5>2024 - 2025</h5>
+                <p><em>KSR School madhanur tamil nadu</em></p>
+                <ul>
+                  <li><i class="bi bi-check2"></i> Specialized in Computer applications</li>
+                  <li><i class="bi bi-check2"></i> Graduated with Distinction</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Column: Core Expertise -->
+          <div class="col-lg-6">
+            <h3 class="resume-title mb-4">Core Expertise <i class="bi bi-rocket-takeoff-fill text-accent"></i></h3>
+            <div class="expertise-container">
+
+              <div class="expertise-card">
+                <div class="expertise-icon">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <div class="expertise-content">
+                  <h4>Web Development</h4>
+                  <p>Developing high-performance, responsive websites using HTML, CSS, JavaScript, and Modern
+                    Frameworks. Building seamless user experiences.</p>
+                </div>
+              </div>
+
+              <div class="expertise-card">
+                <div class="expertise-icon">
+                  <i class="bi bi-cpu"></i>
+                </div>
+                <div class="expertise-content">
+                  <h4>AI Solutions</h4>
+                  <p>Designing intelligent systems and predictive models using Python. Passionate about integrating AI
+                    into web applications.</p>
+                </div>
+              </div>
+
+              <div class="expertise-card">
+                <div class="expertise-icon">
+                  <i class="bi bi-bar-chart-line"></i>
+                </div>
+                <div class="expertise-content">
+                  <h4>Data Visualization</h4>
+                  <p>Transforming complex data into actionable insights through interactive dashboards and visual
+                    storytelling techniques.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Education Section -->
 
     <!-- Skills Section -->
     <section id="skills" class="skills section light-background">
@@ -152,57 +277,89 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row skills-content skills-animation">
+        <div class="row skills-grid">
 
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
+          <!-- Skill 1: HTML -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+            <i class="devicon-html5-plain skill-icon"></i>
+            <p class="skill-name">HTML</p>
           </div>
 
-          <div class="col-lg-6">
+          <!-- Skill 2: CSS -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="150">
+            <i class="devicon-css3-plain skill-icon"></i>
+            <p class="skill-name">CSS</p>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+            <i class="devicon-javascript-plain skill-icon"></i>
+            <p class="skill-name">JavaScript</p>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
+          <!-- Skill 4: Python -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="250">
+            <i class="devicon-python-plain skill-icon"></i>
+            <p class="skill-name">Python</p>
+          </div>
 
-            <div class="progress">
-              <span class="skill"><span>My sql</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              
-            </div><!-- End Skills Item -->
+          <!-- Skill 5: React -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="275">
+            <i class="devicon-react-original skill-icon"></i>
+            <p class="skill-name">React</p>
+          </div>
 
+          <!-- Skill 6: Gemini API -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="290">
+            <i class="bi bi-stars skill-icon"></i>
+            <p class="skill-name">Gemini API</p>
+          </div>
+
+          <!-- Skill 7: PHP -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+            <i class="devicon-php-plain skill-icon"></i>
+            <p class="skill-name">PHP</p>
+          </div>
+
+          <!-- Skill 8: MySQL -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="350">
+            <i class="devicon-mysql-plain skill-icon"></i>
+            <p class="skill-name">MySQL</p>
+          </div>
+
+          <!-- Skill 7: Firebase -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+            <i class="devicon-firebase-plain skill-icon"></i>
+            <p class="skill-name">Firebase</p>
+          </div>
+
+          <!-- Skill 8: Cloudinary -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="450">
+            <i class="bi bi-cloud-fill skill-icon"></i>
+            <p class="skill-name">Cloudinary</p>
+          </div>
+
+          <!-- Skill 9: VS Studio -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+            <i class="devicon-vscode-plain skill-icon"></i>
+            <p class="skill-name">VS Studio</p>
+          </div>
+
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="550">
+            <i class="devicon-github-original skill-icon"></i>
+            <p class="skill-name">GitHub</p>
+          </div>
+
+          <!-- Skill 11: Image Editing -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+            <i class="bi bi-images skill-icon"></i>
+            <p class="skill-name">Image Editing</p>
+          </div>
+
+          <!-- Skill 12: Video Editing -->
+          <div class="skill-card" data-aos="zoom-in" data-aos-delay="650">
+            <i class="bi bi-camera-reels skill-icon"></i>
+            <p class="skill-name">Videos Editing</p>
           </div>
 
         </div>
@@ -211,209 +368,125 @@
 
     </section><!-- /Skills Section -->
 
-  
-    
-      <!-- projects Section -->
-      <!-- Section Title -->
+
+
+    <!-- projects Section -->
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Projects</h2>
+      <p>Check out my recent work</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="card-grid">
+
+        <!-- Project 1 -->
+        <div class="modern-card">
+          <h3><i class="bi bi-cloud-sun-fill"></i> Weather Analysis</h3>
+          <p>Real-time weather and climate data analysis using APIs and visualization tools.</p>
+          <a href="https://weather-analysis-6.onrender.com/" target="_blank" class="btn-view">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="modern-card">
+          <h3><i class="bi bi-robot"></i> Xyntra</h3>
+          <p>Smart multilingual Xyntra chat application for seamless communication.</p>
+          <a href="#" class="btn-view">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="modern-card">
+          <h3><i class="bi bi-chat-dots-fill"></i> Chat Application</h3>
+          <p>WhatsApp-like Java chat app with real-time messaging and voice messaging.</p>
+          <a href="#" class="btn-view">View Project</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="modern-card">
+          <h3><i class="bi bi-person-bounding-box"></i> Exam Face Recognition</h3>
+          <p>A robust AI-based proctoring system using facial recognition to verify candidates.</p>
+          <a href="#" class="btn-view">View Project</a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="modern-card">
+          <h3><i class="bi bi-emoji-laughing-fill"></i> AI Meme Generator</h3>
+          <p>Smart tool that creates hilarious memes by combining AI-generated captions.</p>
+          <a href="#" class="btn-view">View Project</a>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="modern-card">
+          <h3><i class="bi bi-person-check-fill"></i> Face Attendance System</h3>
+          <p>Automated attendance system using real-time facial recognition technology.</p>
+          <a href="#" class="btn-view">View Project</a>
+        </div>
+
+      </div>
+    </div>
+
+    </section><!-- /Projects Section -->
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates section">
+
       <div class="container section-title" data-aos="fade-up">
-        <h2>PROJECTS</h2>
-      <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects | Loganathan</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
+        <h2>Certificates</h2>
+        <p>My Achievements & Certifications</p>
+      </div>
 
-  html, body {
-  min-height: 100%;
-  overflow-x: hidden;
-}
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-grid">
 
-.project-section {
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 30px 40px;
-  justify-content: center;
-  align-items: flex-start;
-  /* Remove overflow: hidden or use: */
-  overflow-y: auto;
-}
- 
-    .project-card {
-      background: rgba(12, 6, 6, 0.05);
-      border-radius: 15px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 0 15px rgba(1, 27, 35, 0.2);
-      transition: transform 0.3s, box-shadow 0.3s;
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeInCard 0.8s ease forwards;
-      width: 350px;
-    }
+          <div class="modern-card certificate-card">
+            <img src="assets/img/certificates/frontend_cert.jpg" alt="Front End Certification">
+            <div class="card-content">
+              <h3><i class="bi bi-award-fill"></i> Front End Web Developer</h3>
+              <p>Infosys Springboard Certification.</p>
+              <a href="assets/img/certificates/frontend_cert.jpg" class="glightbox btn-view"
+                data-gallery="certificates">View Certificate</a>
+            </div>
+          </div>
 
-    .project-card:nth-child(1) { animation-delay: 0.2s; }
-    .project-card:nth-child(2) { animation-delay: 0.4s; }
-    .project-card:nth-child(3) { animation-delay: 0.6s; }
-    .project-card:nth-child(4) { animation-delay: 0.8s; }
-    .project-card:nth-child(5) { animation-delay: 1s; }
-    .project-card:nth-child(6) { animation-delay: 1.2s; }
+          <div class="modern-card certificate-card">
+            <img src="assets/img/certificates/html_cert.jpg" alt="HTML5 Certification">
+            <div class="card-content">
+              <h3><i class="bi bi-filetype-html"></i> HTML5 - The Language</h3>
+              <p>Infosys Springboard Certification.</p>
+              <a href="assets/img/certificates/html_cert.jpg" class="glightbox btn-view"
+                data-gallery="certificates">View Certificate</a>
+            </div>
+          </div>
 
-    @keyframes fadeInCard {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+          <div class="modern-card certificate-card">
+            <img src="assets/img/certificates/css_cert.jpg" alt="CSS3 Certification">
+            <div class="card-content">
+              <h3><i class="bi bi-filetype-css"></i> CSS3 Certification</h3>
+              <p>Infosys Springboard Certification.</p>
+              <a href="assets/img/certificates/css_cert.jpg" class="glightbox btn-view" data-gallery="certificates">View
+                Certificate</a>
+            </div>
+          </div>
 
-    .project-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
-    }
+          <div class="modern-card certificate-card">
+            <img src="assets/img/certificates/javascript_cert.jpg" alt="JavaScript Certification">
+            <div class="card-content">
+              <h3><i class="bi bi-filetype-js"></i> JavaScript</h3>
+              <p>Infosys Springboard Certification.</p>
+              <a href="assets/img/certificates/javascript_cert.jpg" class="glightbox btn-view"
+                data-gallery="certificates">View Certificate</a>
+            </div>
+          </div>
 
-    .project-card h3 {
-      color: #001218;
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      font-size: 1.2rem;
-    }
+        </div>
+      </div>
 
-    .project-card p {
-      color: #0d0000;
-      font-size: 0.95rem;
-      margin-bottom: 15px;
-    }
-
-    .project-card a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 20px;
-      background: #00c3ff;
-      color: #fff;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: background 0.3s, transform 0.3s;
-    }
-
-    .project-card a:hover {
-      background: #03a9f4;
-      transform: scale(1.05);
-    }
-
-    
-
-     
-    @media (max-width: 768px) {
-  body {
-    padding-top: 140px; 
-  }
-   nav {
-        flex-direction: column;
-        padding: 15px 20px;
-   }
-  }
-  </style>
-</head>
-
-  <div class="project-section">
-    <div class="project-card">
-      <h3><i class="fas fa-cloud-sun"></i>Weather Analysis</h3>
-      <p>Real-time weather and climate data analysis using APIs and visualization tools.</p>
-      <a href="https://weather-analysis-6.onrender.com/" target="_blank">View</a>
-    </div>
-
-    <div class="project-card">
-      <h3><i class="fas fa-robot"></i>Xyntra</h3>
-      <p>Smart multilingual Xyntra chat.</p>
-      <a href="" target="_blank">View</a>
-    </div>
-
-    <div class="project-card">
-      <h3><i class="fas fa-comments"></i>Chat Application</h3>
-      <p>WhatsApp-like Java chat app with real-time messaging and voice messaging.</p>
-      <a href="" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <h3><i class="fas fa-eye"></i>Exam Face Recognition</h3>
-      <p>A robust AI-based proctoring system using facial recognition to verify and monitor candidates during exams.</p>
-      <a href="" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <h3><i class="fas fa-robot"></i>Ai-meme_generator</h3>
-      <p>AI Meme Generator is a smart tool that creates hilarious memes by combining AI-generated captions.</p>
-      <a href="" target="_blank">View Project</a>
-    </div>
-
-    <div class="project-card">
-      <h3><i class="fas fa-eye"></i>Face-Attendance-System</h3>
-      <p>Face Recognition Attendance System by identifying faces using real-time facial recognition technology.</p>
-      <a href="" target="_blank">View Project</a>
-    </div>
-  </div>
-  
-  <script>
-    const currentPage = window.location.pathname.split("/").pop();
-    const menuLinks = document.querySelectorAll(".menu a");
-    menuLinks.forEach(link => {
-      if (link.getAttribute("href") === currentPage) {
-        link.classList.add("active");
-      }
-    });
-  </script>
-  <script>
-  // Disable right-click
-  document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-  });
-
-  // Disable common shortcut keys for viewing source and developer tools
-  document.addEventListener("keydown", function (e) {
-    // F12
-    if (e.keyCode === 123) {
-      e.preventDefault();
-    }
-
-    // Ctrl+Shift+I or Ctrl+Shift+J
-    if ((e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74))) {
-      e.preventDefault();
-    }
-
-    // Ctrl+U
-    if (e.ctrlKey && e.keyCode === 85) {
-      e.preventDefault();
-    }
-
-    // Ctrl+Shift+C (Element picker)
-    if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
-      e.preventDefault();
-    }
-  });
-  </script>
-</body>
-</html>
-            </div><!-- End Portfolio Item -->
+    </section><!-- /Certificates Section -->
 
 
-  
+
     <!-- Testimonials Section -->
-    
+
     </section><!-- /Testimonials Section -->
 
     <!-- Contact Section -->
@@ -422,114 +495,72 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
+        <p>Connect with Me</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-modern-card">
+          <div class="row g-0">
+            <!-- Left Column -->
+            <div class="col-lg-5 contact-left-col">
+              <h3 class="collaborate-title">Let's Collaborate</h3>
+              <p class="collaborate-text">
+                I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                visions.
+              </p>
 
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-         
-             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-  <i class="bi bi-globe flex-shrink-0" style="font-size: 24px; color: #0d6efd;"></i>
-  <div>
-    <h3>Website</h3>
-    <p>
-      <a href="https://me.loganathan.site" target="_blank" style="color: #0d6efd; text-decoration: none; font-weight: 500;">
-        me.loganathan.site
-      </a>
-    </p>
-  </div>
-</div>
-
-
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-instagram flex-shrink-0"></i>
-                <div>
-                  <h3>instagram</h3>
-                  <a href="https://www.instagram.com/kutty_loga_?igsh=YTQ4NTIxenk4c3Vt">Kutty_Loga_</a>
+              <div class="contact-info-item">
+                <div class="contact-info-icon-circle">
+                  <i class="bi bi-geo-alt"></i>
                 </div>
-              </div><!-- End Info Item -->
+                <div class="contact-info-details">
+                  <h4>Location</h4>
+                  <p>bangalore</p>
+                </div>
+              </div>
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
+              <div class="contact-info-item">
+                <div class="contact-info-icon-circle">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="contact-info-details">
+                  <h4>Email</h4>
                   <a href="mailto:loganathan082008@gmail.com">loganathan082008@gmail.com</a>
-
-
                 </div>
-              </div><!-- End Info Item -->
               </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon-circle">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="contact-info-details">
+                  <h4>Phone</h4>
+                  <p>7010123479</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column (Form) -->
+            <div class="col-lg-7 contact-right-col">
+              <form action="https://formspree.io/f/xanjewpk" method="POST" class="php-email-form">
+                <div class="custom-form-group">
+                  <label for="name"><i class="bi bi-person"></i> Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="custom-form-group">
+                  <label for="email"><i class="bi bi-envelope"></i> Email Address</label>
+                  <input type="email" name="email" class="form-control" id="email" required>
+                </div>
+                <div class="custom-form-group">
+                  <label for="message"><i class="bi bi-chat-dots"></i> Your Message</label>
+                  <textarea class="form-control" name="message" rows="4" id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn-gradient-submit">Send Message <i
+                    class="bi bi-send-fill ms-2"></i></button>
+              </form>
+            </div>
           </div>
-<div class="col-lg-7">
-  <form id="contact-form" action="https://formspree.io/f/xanjewpk" method="POST" data-aos="fade-up" data-aos-delay="200">
-    <div class="row gy-4">
-
-      <div class="col-md-6">
-        <label for="name-field" class="pb-2">Your Name</label>
-        <input type="text" name="name" id="name-field" class="form-control" required>
-      </div>
-
-      <div class="col-md-6">
-        <label for="email-field" class="pb-2">Your Email</label>
-        <input type="email" class="form-control" name="email" id="email-field" required>
-      </div>
-
-     
-      <div class="col-md-12">
-        <label for="message-field" class="pb-2">Message</label>
-        <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
-      </div>
-
-      <div class="col-md-12 text-center">
-        <button type="submit" class="btn btn-primary">Send Message</button>
-      </div>
-    </div>
-  </form>
-</div>
-
-<!-- ✅ JS for popup confirmation -->
-<script>
-  document.getElementById('contact-form').addEventListener('submit', async function(e) {
-    e.preventDefault();
-
-    const form = e.target;
-    const formData = new FormData(form);
-
-    try {
-      const response = await fetch(form.action, {
-        method: form.method,
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-      });
-
-      if (response.ok) {
-        alert("✅ Thank you for your submission! Your form has been submitted successfully.");
-        form.reset(); // Optional: Clear the form
-      } else {
-        alert("❌ Oops! Something went wrong. Please try again later.");
-      }
-    } catch (error) {
-      alert("❌ Error: " + error.message);
-    }
-  });
-</script>
-
-
-      </div>
-    </div>
-  </form>
-</div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
         </div>
-
       </div>
 
     </section><!-- /Contact Section -->
@@ -540,13 +571,11 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kutty_Loga_</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kutty_Loga_</strong> <span>All Rights Reserved</span>
+        </p>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+
         Designed by <a href="https://www.instagram.com/kutty_loga_?igsh=YTQ4NTIxenk4c3Vt">LOGANATHAN</a>
       </div>
     </div>
@@ -554,7 +583,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -573,6 +603,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/bg-animation.js"></script>
 
 </body>
 
